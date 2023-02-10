@@ -1,0 +1,13 @@
+
+/* Root variables */
+:root {
+    --primary-color: #FAFA33;
+    --text-primary: #36454F;
+}
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
