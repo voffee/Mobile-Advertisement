@@ -1,7 +1,7 @@
 
 /* Root variables */
 :root {
-    --primary-color: #FAFA33;
+    --primary-color: #F5DEB3;
     --text-primary: #36454F;
 }
 
@@ -10,4 +10,31 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+header {
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    color: var(--text-primary);
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: var(--text-primary);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+    width: 390 px;
+}
+
+#warning {
+    font-size: 12px;
 }
