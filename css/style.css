@@ -1,7 +1,7 @@
 
 /* Root variables */
 :root {
-    --primary-color: #F5DEB3;
+    --primary-color: #ffff66;
     --text-primary: #36454F;
 }
 
@@ -13,12 +13,21 @@
 }
 
 body {
-    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
 }
 
 header {
-    justify-content: center;
-    text-align: center;
+    text-align: justify;
+}
+
+hr {
+    border: 0.5px solid black;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
@@ -32,9 +41,34 @@ h2 {
 }
 
 .container {
-    width: 390 px;
+    height: 450px;
+    width: 300px;
+    overflow: hidden;
+    background-color: var(--primary-color);
 }
 
 #warning {
-    font-size: 12px;
+    font-size: 8px;
+    padding: 10px 10px 10px 10px;
+}
+
+#advertisement-content {
+    font-size: 20px;
+    padding: 10px 10px 0px 10px;
+}
+
+#corporation-name {
+    font-size: 34px;
+    text-align: center;
+}
+
+#advertisement-1 {
+    padding: 20px 0px 0px 0px;
+}
+#advertisement-2 {
+    padding: 20px 0px 0px 0px;
+}
+
+#financial-instrument {
+    font-weight: bold;
 }
