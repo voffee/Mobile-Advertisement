@@ -15,8 +15,9 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 header {
@@ -44,6 +45,7 @@ h2 {
     height: 450px;
     width: 300px;
     overflow: hidden;
+    margin: auto;
     background-color: var(--primary-color);
 }
 
